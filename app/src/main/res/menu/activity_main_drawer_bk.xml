@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="EduAdminSys">
+        <menu>
+            <item
+                android:id="@+id/nav_easprofile"
+                android:icon="@drawable/ic_menu_send"
+                android:title="个人信息" />
+            <item
+                android:id="@+id/nav_courses"
+                android:icon="@drawable/ic_menu_send"
+                android:title="排课查询" />
+            <item
+                android:id="@+id/nav_scores"
+                android:icon="@drawable/ic_menu_send"
+                android:title="成绩查询" />
+        </menu>
+    </item>
+
+    <item android:title="Library">
+        <menu>
+            <item
+                android:id="@+id/nav_libprofile"
+                android:icon="@drawable/ic_menu_send"
+                android:title="个人资料" />
+            <item
+                android:id="@+id/nav_libsearch"
+                android:icon="@drawable/ic_menu_send"
+                android:title="书籍查询" />
+            <item
+                android:id="@+id/nav_libborrow"
+                android:icon="@drawable/ic_menu_send"
+                android:title="当前借阅" />
+            <item
+                android:id="@+id/nav_libborrowhis"
+                android:icon="@drawable/ic_menu_send"
+                android:title="借阅历史" />
+        </menu>
+    </item>
+
+</menu>
